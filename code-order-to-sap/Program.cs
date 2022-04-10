@@ -13,7 +13,7 @@ namespace code_order_to_sap
         static void Main(string[] args)
         {
             /* Declare the company variable - the connection */
-            SAPbobsCOM.Company company = null;
+            Company company = null;
 
             Console.WriteLine("Connecting to SAP...");
 
